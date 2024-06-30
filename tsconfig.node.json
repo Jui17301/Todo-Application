@@ -1,0 +1,34 @@
+
+ {
+   "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+"allowSyntheticDefaultImports": true,
+
+    "target": "ES2020", // Ensure compatibility with the main tsconfig target
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // Ensure lib matches the main tsconfig
+    "resolveJsonModule": true, // Enable importing JSON modules
+    "strict": true // Enable all strict type-checking options
+
+    
+  },
+  "include": ["vite.config.ts"],
+  "exclude":[]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
